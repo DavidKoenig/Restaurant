@@ -12,7 +12,7 @@ class Food extends Supply {
 	}
 	
 	public Food(EKind kind_, float price_, String name_, String description_, int number_){
-		Supply(price_, name_, description_, number_);
+		super(price_, name_, description_, number_);
 		this.kind = kind_;
 	}
 	
