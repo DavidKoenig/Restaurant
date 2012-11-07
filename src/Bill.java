@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+import java.util.*;
+
+>>>>>>> 1be6cda86cb106d104ed5958c397b368a8569ff1
 class Bill {
 	private float amount;
 	private boolean paid;
