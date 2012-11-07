@@ -1,4 +1,3 @@
-
 class Waiter {
 	private boolean busy;
 	
@@ -14,5 +13,6 @@ class Waiter {
 	public boolean getBusy(){
 		return this.busy;
 	}
+	
 	
 }
