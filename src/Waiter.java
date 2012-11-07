@@ -15,5 +15,4 @@ class Waiter {
 		return this.busy;
 	}
 	
-	
 }

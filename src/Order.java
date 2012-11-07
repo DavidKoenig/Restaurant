@@ -1,5 +1,4 @@
 
-
 public class Order {
 	private OrderItem head;
 	private OrderItem tail;
@@ -28,18 +27,5 @@ public class Order {
 			this.tail.addOrderItem( newItem_ );
 		
 		this.tail = newItem_;
-		numberItems();
-	}
-	
-	public void numberItems( )
-	{
-		int index = 0;
-		OrderItem currentItem = this.head;
-		while( currentItem.getNext() != null )
-		{
-			++index;
-			currentItem.setNumber( index );
-			currentItem = currentItem.getNext();
-		}
 	}
 }
