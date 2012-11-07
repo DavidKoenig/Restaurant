@@ -1,3 +1,4 @@
+
 class Food extends Supply {
 	private EFoodKind kind;
 	private boolean fries;

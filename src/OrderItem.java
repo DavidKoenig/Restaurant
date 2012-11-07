@@ -2,14 +2,11 @@
 public class OrderItem {
 	private OrderItem nextItem;
 	private OrderItem lastItem;
-	private float itemPrice;
-	private String[] itemName;
+	private Supply item;
 	int itemNumber;	
-	public OrderItem( String[] itemName_, float itemPrice_ ) 
+	public OrderItem( Supply item_ ) 
 	{
-		this.itemName = itemName_;
-		this.itemPrice = itemPrice_;
-		
+		item = item_; 
 		if( lastItem == null )
 			this.itemNumber = 0;
 		else
@@ -21,10 +18,8 @@ public class OrderItem {
 	public OrderItem getNext() { return nextItem; }
 	public void setLast( OrderItem last_ ) { this.lastItem = last_; }
 	public OrderItem getLast() { return lastItem; }
-	public float getPrice()	{ return itemPrice; }	
-	public void setPrice( float price_ ) { this.itemPrice = price_; }
-	public String[] getName() {	return itemName; }	
-	public void setName( String[] name_ ) { this.itemName = name_; }
+	public Supply getItem() {	return item; }	
+	public void setItem( Supply item_ ) { item = item_; }
 	public void setNumber( int itemNumber_ ) { this.itemNumber = itemNumber_; }
 	public int getNumber() { return itemNumber;	}
 	

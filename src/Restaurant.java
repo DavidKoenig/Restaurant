@@ -9,7 +9,13 @@ public class Restaurant {
 		// TODO Auto-generated method stub
 		Menu newMenu;
 		newMenu = new Menu();
-		newMenu.printMenu();
+//		newMenu.printMenu();
+		
+		TableList tables = new TableList();
+		for(int index = 0; index <= 5; ++index) {
+			tables.addTableItem();
+		}
+		
 	}
 
 }

@@ -1,3 +1,4 @@
+
 class Drinks extends Supply {
 	private boolean alcoholic;
 	

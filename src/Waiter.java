@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 import java.util.*;
 
->>>>>>> 1be6cda86cb106d104ed5958c397b368a8569ff1
 class Waiter {
 	private boolean busy;
 	private Menu menu;
@@ -22,7 +19,7 @@ class Waiter {
 	
 	public void printMenu()
 	{
-		menu.printList();
+//		menu.printMenu();
 	}
 	
 	public void getOrder(int order_[])

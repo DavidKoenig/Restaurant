@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 import java.util.*;
 
->>>>>>> 1be6cda86cb106d104ed5958c397b368a8569ff1
 public class Menu {
 	
 	private List<Supply> menuList = new ArrayList();
@@ -31,9 +28,6 @@ public class Menu {
 		this.index++;
 		
 		Drinks water = new Drinks			(1.00f, "Wasser", "aus der Erfurter Quelle", false);
-<<<<<<< HEAD
-		Drinks herbLiquor = new Drinks		(1.50f, "Krï¿½uterliqeur", "Nordhï¿½user", true);
-=======
 		menuList.add(index, water);
 		this.index++;
 		
@@ -48,7 +42,6 @@ public class Menu {
 		Food toastHawai = new Food			(4.60f, "Toast Hawai", "überbacken", EFoodKind.valueOf("APPETIZER"), false, false, false, false, false);
 		menuList.add(index, toastHawai);
 		this.index++;
->>>>>>> 1be6cda86cb106d104ed5958c397b368a8569ff1
 		
 		Food steakOuFour = new Food			(11.50f, "Steak ou four", "mit Pommes", EFoodKind.valueOf("MAINDISH"), true, false, false, false, false);
 		menuList.add(index, steakOuFour);
@@ -59,11 +52,6 @@ public class Menu {
 		this.index++;
 		
 		Food schnitzel = new Food			(10.30f, "Schnitzel", "mit Pommes", EFoodKind.valueOf("MAINDISH"), true, false, false, false, false);
-<<<<<<< HEAD
-		Food beefStock = new Food			(3.90f,  "Rinderbrï¿½he", "hausgemacht", EFoodKind.valueOf("APPETIZER"), false, false, false, false, false);
-		Food toastHawai = new Food			(4.60f, "Toast Hawai", "ï¿½berbacken", EFoodKind.valueOf("APPETIZER"), false, false, false, false, false);
-		Food appleStudel = new Food			(5.20f, "Apfelstrudel", "hausgemacht", EFoodKind.valueOf("DESSERT"), false, false, false, false, false);
-=======
 		menuList.add(index, schnitzel);
 		this.index++;
 		
@@ -71,7 +59,6 @@ public class Menu {
 		menuList.add(index, appleStrudel);
 		this.index++;
 		
->>>>>>> 1be6cda86cb106d104ed5958c397b368a8569ff1
 		Food iceCream = new Food			(2.70f, "Eiscreme", "Schoko und Vanille", EFoodKind.valueOf("DESSERT"), false, false, false, false, false);
 		menuList.add(index, iceCream);
 		this.index++;
@@ -92,11 +79,11 @@ public class Menu {
 		return this.index;
 	}
 	
-	public void printMenu()
-	{
-		for(int indexPrint = 0; indexPrint <= index; indexPrint++){
-			System.out.println("\n" + indexPrint + "\t" + menuList.get(indexPrint).toString());			
-		}
-	}
+//	public void printMenu()
+//	{
+//		for(int indexPrint = 0; indexPrint <= index; indexPrint++){
+//			System.out.println("\n" + indexPrint + "\t" + menuList.get(indexPrint).toString());			
+//		}
+//	}
 	
 }
